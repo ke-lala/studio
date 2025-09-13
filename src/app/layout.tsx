@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -22,17 +22,6 @@ export default function RootLayout({
       <body className="font-body antialiased">
         {children}
         <Toaster />
-        <div className="fixed top-4 left-4 z-50 w-64 h-auto rounded-lg overflow-hidden shadow-2xl shadow-primary/20">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="h-full w-full object-cover"
-              src="https://amashiro.com/wp-content/themes/amashiro_v0/assets/mp4/nacho_web.mp4"
-            />
-        </div>
-        <div className="fixed inset-0 z-[-1] bg-background/80" />
       </body>
     </html>
   );

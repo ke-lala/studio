@@ -69,7 +69,15 @@ export default function Home() {
 
   return (
     <main className="relative flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
-      <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
+      <div className="fixed inset-0 z-[-1] bg-background" />
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="fixed inset-0 w-full h-full object-cover z-0"
+        src="https://amashiro.com/wp-content/themes/amashiro_v0/assets/mp4/nacho_web.mp4"
+      />
       
       <div className="z-10 w-full max-w-lg animate-in fade-in-0 slide-in-from-bottom-10 duration-700 ease-out">
         <Card className="bg-card/80 backdrop-blur-md border-border/60 shadow-2xl shadow-primary/10">
