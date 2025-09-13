@@ -94,70 +94,76 @@ export default function Home() {
             </CardDescription>
           </CardHeader>
           
-          <CardContent className="p-6 sm:p-8 pt-0 space-y-6">
-            <Separator />
-            <div className="space-y-2">
-                <InfoLink
-                    href="https://twitter.com/ZiruiLi13176"
-                    icon={<Twitter className="h-6 w-6" />}
-                    title="X (Twitter)"
-                    subtitle="@ZiruiLi13176"
-                />
-                <InfoLink
-                    href="https://m.bilibili.com/space/3546690728495257?from=search"
-                    icon={<BilibiliIcon className="h-6 w-6" />}
-                    title="Bilibili"
-                    subtitle="Personal Space"
-                />
-            </div>
-            
-            <Separator />
-            
-            <div className="space-y-2">
-                <h3 className="font-headline text-xl text-center text-foreground/90 px-3">Contact</h3>
-                <InfoLink
-                    href="mailto:zirui826@proton.me"
-                    icon={<Mail className="h-6 w-6" />}
-                    title="Proton Mail"
-                    subtitle="zirui826@proton.me"
-                    isExternal={false}
-                />
-                 <InfoLink
-                    href="mailto:liziruikelala@gmail.com"
-                    icon={<Mail className="h-6 w-6" />}
-                    title="Gmail"
-                    subtitle="liziruikelala@gmail.com"
-                    isExternal={false}
-                />
-            </div>
+          <CardContent className="p-6 sm:p-8 pt-0">
+            <div className="space-y-4">
+              <div className="p-4 rounded-lg bg-background/50">
+                <h3 className="font-headline text-xl text-center text-foreground/90 mb-2">Social</h3>
+                <Separator />
+                <div className="mt-2 space-y-1">
+                    <InfoLink
+                        href="https://twitter.com/ZiruiLi13176"
+                        icon={<Twitter className="h-6 w-6" />}
+                        title="X (Twitter)"
+                        subtitle="@ZiruiLi13176"
+                    />
+                    <InfoLink
+                        href="https://m.bilibili.com/space/3546690728495257?from=search"
+                        icon={<BilibiliIcon className="h-6 w-6" />}
+                        title="Bilibili"
+                        subtitle="Personal Space"
+                    />
+                </div>
+              </div>
+              
+              <div className="p-4 rounded-lg bg-background/50">
+                <h3 className="font-headline text-xl text-center text-foreground/90 mb-2">Contact</h3>
+                <Separator />
+                <div className="mt-2 space-y-1">
+                    <InfoLink
+                        href="mailto:zirui826@proton.me"
+                        icon={<Mail className="h-6 w-6" />}
+                        title="Proton Mail"
+                        subtitle="zirui826@proton.me"
+                        isExternal={false}
+                    />
+                     <InfoLink
+                        href="mailto:liziruikelala@gmail.com"
+                        icon={<Mail className="h-6 w-6" />}
+                        title="Gmail"
+                        subtitle="liziruikelala@gmail.com"
+                        isExternal={false}
+                    />
+                </div>
+              </div>
 
-            <Separator />
-            
-            <div className="space-y-2">
-                <h3 className="font-headline text-xl text-center text-foreground/90 px-3">Secure & Private</h3>
-                <InfoText
-                    icon={<Mail className="h-6 w-6" />}
-                    title="I2P Mail"
-                    subtitle="lizirui@i2pmail.org"
-                />
-                 <InfoText
-                    icon={<Mail className="h-6 w-6" />}
-                    title="Darknet Mail (I2P)"
-                    subtitle="lizirui@mail.i2p"
-                />
-                <InfoText
-                    icon={<Globe className="h-6 w-6" />}
-                    title="Darknet Website (I2P)"
-                    subtitle="kelala123.i2p"
-                />
-                 <InfoLink
-                    href="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
-                    icon={<Globe className="h-6 w-6" />}
-                    title="B32 Address (I2P)"
-                    subtitle="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
-                />
+              <div className="p-4 rounded-lg bg-background/50">
+                <h3 className="font-headline text-xl text-center text-foreground/90 mb-2">Secure & Private</h3>
+                <Separator />
+                <div className="mt-2 space-y-1">
+                    <InfoText
+                        icon={<Mail className="h-6 w-6" />}
+                        title="I2P Mail"
+                        subtitle="lizirui@i2pmail.org"
+                    />
+                     <InfoText
+                        icon={<Mail className="h-6 w-6" />}
+                        title="Darknet Mail (I2P)"
+                        subtitle="lizirui@mail.i2p"
+                    />
+                    <InfoText
+                        icon={<Globe className="h-6 w-6" />}
+                        title="Darknet Website (I2P)"
+                        subtitle="kelala123.i2p"
+                    />
+                     <InfoLink
+                        href="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
+                        icon={<Globe className="h-6 w-6" />}
+                        title="B32 Address (I2P)"
+                        subtitle="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
+                    />
+                </div>
+              </div>
             </div>
-
           </CardContent>
         </Card>
       </div>
