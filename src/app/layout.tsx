@@ -20,6 +20,8 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
+        {children}
+        <Toaster />
         <div className="fixed inset-0 z-[-1] h-screen w-screen">
             <video
               autoPlay
@@ -30,8 +32,6 @@ export default function RootLayout({
               src="https://amashiro.com/wp-content/themes/amashiro_v0/assets/mp4/nacho_web.mp4"
             />
         </div>
-        {children}
-        <Toaster />
       </body>
     </html>
   );
