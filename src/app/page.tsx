@@ -99,7 +99,7 @@ export default function Home() {
                     href="https://m.bilibili.com/space/3546690728495257?from=search"
                     icon={<BilibiliIcon className="h-6 w-6" />}
                     title="Bilibili"
-                    subtitle="个人空间"
+                    subtitle="Personal Space"
                 />
             </div>
             
@@ -134,19 +134,19 @@ export default function Home() {
                 />
                  <InfoText
                     icon={<Mail className="h-6 w-6" />}
-                    title="暗网邮箱 (I2P)"
+                    title="Darknet Mail (I2P)"
                     subtitle="lizirui@mail.i2p"
                 />
                 <InfoText
                     icon={<Globe className="h-6 w-6" />}
-                    title="暗网网站 (I2P)"
+                    title="Darknet Website (I2P)"
                     subtitle="kelala123.i2p"
                 />
                  <InfoLink
                     href="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
                     icon={<Globe className="h-6 w-6" />}
                     title="B32 Address (I2P)"
-                    subtitle="Click to visit via gateway"
+                    subtitle="http://z22h2jqcoiqzolgrrry36gehr63wnx7wgev5n2iaop4yvqsdty4q.b32.i2p/"
                 />
             </div>
 
