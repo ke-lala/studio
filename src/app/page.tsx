@@ -68,19 +68,9 @@ export default function Home() {
   const avatarImage = PlaceHolderImages.find(p => p.id === 'avatar');
 
   return (
-    <main className="relative flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
-      <div className="fixed inset-0 z-[-1] bg-white" />
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="fixed inset-0 w-full h-full object-cover z-0"
-        src="https://amashiro.com/wp-content/themes/amashiro_v0/assets/mp4/nacho_web.mp4"
-      />
-      
+    <main className="relative flex items-center justify-center min-h-screen bg-background p-4 sm:p-6 md:p-8">
       <div className="z-10 w-full max-w-lg animate-in fade-in-0 slide-in-from-bottom-10 duration-700 ease-out">
-        <Card className="bg-card/80 backdrop-blur-md border-border/60 shadow-2xl shadow-primary/10">
+        <Card className="bg-card/90 backdrop-blur-md border-border/60 shadow-2xl shadow-primary/10">
           <CardHeader className="items-center text-center p-6 sm:p-8">
             <Avatar className="w-28 h-28 border-4 border-accent/50">
               {avatarImage && (
