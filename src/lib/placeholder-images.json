@@ -3,8 +3,8 @@
     {
       "id": "avatar",
       "description": "Zirui's avatar",
-      "imageUrl": "https://picsum.photos/seed/avatar1/200/200",
-      "imageHint": "profile picture"
+      "imageUrl": "https://storage.googleapis.com/studiopaper-dev-user-uploads/b1350cfc-554f-4a30-8d59-22a0d92751f1.png",
+      "imageHint": "anime girl"
     },
     {
       "id": "background-image",
