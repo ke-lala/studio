@@ -69,7 +69,7 @@ export default function Home() {
 
   return (
     <main className="relative flex items-center justify-center min-h-screen p-4 sm:p-6 md:p-8">
-      <div className="fixed inset-0 z-[-1] bg-background" />
+      <div className="fixed inset-0 z-[-1] bg-white" />
       <video
         autoPlay
         loop
@@ -90,7 +90,7 @@ export default function Home() {
             </Avatar>
             <CardTitle className="text-3xl sm:text-4xl font-headline mt-4">Zirui's Corner</CardTitle>
             <CardDescription className="mt-2 text-base text-accent">
-              Welcome to my personal space.
+              Welcome to my personal space on the internet.
             </CardDescription>
           </CardHeader>
           
