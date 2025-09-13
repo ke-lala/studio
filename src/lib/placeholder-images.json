@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "avatar",
+      "description": "Zirui's avatar",
+      "imageUrl": "https://picsum.photos/seed/avatar1/200/200",
+      "imageHint": "profile picture"
+    },
+    {
+      "id": "background-image",
+      "description": "Abstract background for Zirui's Corner",
+      "imageUrl": "https://picsum.photos/seed/zcorner/1920/1080",
+      "imageHint": "abstract technology"
+    }
+  ]
 }
