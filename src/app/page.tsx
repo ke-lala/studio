@@ -153,6 +153,14 @@ export default function Home() {
                     />
                 </div>
               </div>
+
+              <div className="p-4 rounded-lg bg-background/50">
+                <h3 className="font-headline text-xl text-center text-foreground/90 mb-2">Help Censored Users</h3>
+                <Separator />
+                <div className="mt-2 flex justify-center">
+                    <iframe src="https://snowflake.torproject.org/embed.html" width="320" height="240" frameBorder="0" scrolling="no"></iframe>
+                </div>
+              </div>
             </div>
           </CardContent>
         </Card>
