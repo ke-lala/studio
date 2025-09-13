@@ -55,9 +55,5 @@
   }
   body {
     @apply bg-background text-foreground;
-    background-image: url('https://storage.googleapis.com/project-1095888203362-us-central1-staging-images/e7e937d5-e555-4422-b5e1-0c58f001221b?GoogleAccessId=firebase-adminsdk-p1j60%40project-1095888203362.iam.gserviceaccount.com&Expires=1724830113&Signature=Wn5pX6tYgK2bM8i%2F5uF%2Frp4y6qF4vNn8%2FEV8hT8L0q4YlTq74m7K63lJ9cO46%2Fz8q%2B9lX8b6e6t8j3k4i2l8x2p4i1m1k5p9s1t5v7w8x9z0%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2B%2B%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2B8d8yHj9o1X7e2c9k6s6o4w2r1y9c%2B1z7k5h7o8t8x6e9m9d9s8i3q3w3g2x2a6y7s7w7b9p8q8n8w7s4z1t4g6c6i5k4o4s2w2w3j2h2j2i1k2k1l1l1m1m1n1n1o1o1p1p1q1q1r1r1s1s1t1t1u1u1v1v1w1w1x1x1y1y1z1z');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
   }
 }
